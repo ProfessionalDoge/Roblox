@@ -1,7 +1,7 @@
+local PlaceId = game.PlaceId
+
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Deeeezzz Nutssss"})
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Haha gottemm"})
-
-local PlaceId = game.PlaceId
 
 if PlaceId == 6284583030 then
         loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
