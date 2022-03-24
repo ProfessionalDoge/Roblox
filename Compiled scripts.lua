@@ -1,4 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.3"})
 
 local PlaceId = game.PlaceId
 
@@ -15,6 +16,9 @@ elseif PlacId == 1458767429 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
 elseif PlaceId == 2809202155 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/yba%20connectors.lua"))()
+elseif PlaceId == 286090429 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/arsenal%20connectors.lua"))()
+	
 else
 	
 end
