@@ -13,6 +13,8 @@ elseif PlaceId == 537413528 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GOJOsatoru1122/SWPRDHUBBUILDABOAT/main/README.md"))()
 elseif PlacId == 1458767429 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
+elseif PlaceId == 2809202155 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/yba%20connectors.lua"))()
 else
 	
 end
