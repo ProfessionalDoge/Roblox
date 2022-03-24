@@ -18,6 +18,8 @@ elseif PlaceId == 2809202155 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/yba%20connectors.lua"))()
 elseif PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/arsenal%20connectors.lua"))()
+elseif PlaceId == 301549746 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua", true))()
 	
 else
 	
