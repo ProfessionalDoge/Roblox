@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.9"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "1.0"})
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Status", Text = "Alpha"})
 
 local PlaceId = game.PlaceId
