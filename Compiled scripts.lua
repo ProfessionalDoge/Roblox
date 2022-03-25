@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.5"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.6"})
 
 local PlaceId = game.PlaceId
 
@@ -20,6 +20,8 @@ elseif PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/arsenal%20connectors.lua"))()
 elseif PlaceId == 301549746 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/cunterblokconnec.lua"))()
+elseif PlaceId == 6407649031 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/no-scope-arcade-connector.lua"))()
 	
 else
 	
