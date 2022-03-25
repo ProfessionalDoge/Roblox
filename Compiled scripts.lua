@@ -1,5 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.7"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.8"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Status", Text = "Alpha"})
 
 local PlaceId = game.PlaceId
 
@@ -20,6 +21,8 @@ elseif PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/arsenal%20connectors.lua"))()
 elseif PlaceId == 301549746 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/cunterblokconnec.lua"))()
+elseif PlaceId == 2768379856 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/rblx3008connectors.lua"))()
 	
 else
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Game is currently not supported"})
