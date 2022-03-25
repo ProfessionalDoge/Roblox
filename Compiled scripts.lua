@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.6"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.7"})
 
 local PlaceId = game.PlaceId
 
@@ -24,5 +24,6 @@ elseif PlaceId == 6407649031 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/no-scope-arcade-connector.lua"))()
 	
 else
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Game is currently not supported"})
 	
 end
