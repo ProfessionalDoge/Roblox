@@ -20,8 +20,6 @@ elseif PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/arsenal%20connectors.lua"))()
 elseif PlaceId == 301549746 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/cunterblokconnec.lua"))()
-elseif PlaceId == 6407649031 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/no-scope-arcade-connector.lua"))()
 	
 else
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Game is currently not supported"})
