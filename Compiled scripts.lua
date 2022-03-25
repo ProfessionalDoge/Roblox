@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.8"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "0.9"})
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Status", Text = "Alpha"})
 
 local PlaceId = game.PlaceId
@@ -26,5 +26,7 @@ elseif PlaceId == 2768379856 then
 	
 else
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Game is currently not supported"})
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Roblox/main/2.lua"))()
 	
 end
