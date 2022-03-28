@@ -1,9 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Compiled", Text = "By Silent Cheems#9807"})
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Version", Text = "1.1"})
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Status", Text = "Alpha"})
 
 local PlaceId = game.PlaceId
-
 
 if PlaceId == 6284583030 then
         loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
@@ -23,6 +21,8 @@ elseif PlaceId == 301549746 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/cunterblokconnec.lua"))()
 elseif PlaceId == 2768379856 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/rblx3008connectors.lua"))()
+elseif PlaceId == 3351674303 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/drvempcnctr.lua"))()
 
 	else
 	
