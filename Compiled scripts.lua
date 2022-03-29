@@ -23,9 +23,8 @@ elseif PlaceId == 2768379856 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/rblx3008connectors.lua"))()
 elseif PlaceId == 3351674303 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ProfessionalDoge/Connectors/main/drvempcnctr.lua"))()
-
-	else
 	
+	else
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Notice", Text = "Game is currently not supported"})
 	
 	end
